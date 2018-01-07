@@ -5,12 +5,12 @@ import media
 import fresh_tomatoes
 
 # 星球大战8
-star_war8 = media.Movie('星球大战8', '影片故事紧接《星球大战：原力觉醒》，讲述了遥远的银河系中恐怖政权“第一秩序”袭击新共和国首都之后的事。',
+star_war8 = media.Movie('星球大战8', '影片故事紧接《星球大战：原力觉醒》，讲述了遥远的银河系中恐怖政权“第一秩序”袭击新共和国首都之后的事。',  # noqa
                         'http://r1.ykimg.com/051600005A45C44A859B5D05D40B24F8',
                         'http://v.youku.com/v_show/id_XMzIwNDczMDk3Ng==.html')
 
 # 黑客帝国
-the_matrix = media.Movie('黑客帝国', '影片讲述了一名年轻的网络黑客尼奥发现看似正常的现实世界实际上是由一个名为“矩阵”的计算机人工智能系统控制的，尼奥在一名神秘女郎崔妮蒂的引导下见到了黑客组织的首领墨菲斯，三人走上了抗争矩阵征途的故事。',
+the_matrix = media.Movie('黑客帝国', '影片讲述了一名年轻的网络黑客尼奥发现看似正常的现实世界实际上是由一个名为“矩阵”的计算机人工智能系统控制的，尼奥在一名神秘女郎崔妮蒂的引导下见到了黑客组织的首领墨菲斯，三人走上了抗争矩阵征途的故事。',  # noqa
                          'http://r1.ykimg.com/051600005355D8A967379F515D060676',
                          'http://v.youku.com/v_show/id_XMzQ3ODkyODY0.html')
 
@@ -38,4 +38,3 @@ mr_donkey = media.Movie('驴得水', '该片改编自周申、刘露的同名话
 movies = [star_war8, the_matrix, key_to_dragon, bye_to_looser, never_say_die, mr_donkey]
 # 生成电影页面并在浏览器中打开
 fresh_tomatoes.open_movies_page(movies)
-
